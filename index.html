@@ -1,66 +1,113 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta http-equiv="X-UA-Compatible" contents="IE-Edge">
     <meta charset="utf-8">
-
-    <title>Luwin Changco | Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" contents="IE-Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>Luwin Changco | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700i,900|Raleway:200,400,400i,700" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="fonts/font-awesome.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main/style.css">
 
 </head>
 
 <body>
-    <nav>
-        <div class="logo">
-            <a href="#">
-                <img src="#" alt="LC logo">
-            </a>
-        </div>
-        <div class="menu-bar">
-            <ul>
-              <li>Hello</li>
-              <li>Work</li>
-              <li>About</li>
-              <li>Contact</li>
-            </ul>
+    <nav class="container">
+        <div class="row">
+            <div class="logo col-sm-6">
+                <a href="#">
+                    <img src="images/logo2.png" class="logo" alt="LC logo">
+                </a>
+            </div>
+            <div class="menu-bar col-sm-6">
+                <ul>
+                  <li><a href="#">Hello</a></li>
+                  <li><a href="#">Work</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <section class="hero">
-        <h1>Hi, my name is Luwin!</h1>
-        <h3>&amp; I'm a product designer that loves</h3>
+    <section class="hero container">
+        <div class="row">
+            <h1 class="col-sm-12">Hi, my name is Luwin!</h1>
+            <section class="wrapper">
+                <h2 class="sentence col-sm-12">&amp; I'm a product designer<br>that loves
+                    <div class="slidingVertical">
+                        <span>simplicity.</span>
+                        <span>typography.</span>
+                        <span>food.</span>
+                        <span>fitness.</span>
+                        <span>learning.</span>
+                    </div>
+                </h2>
+            </section>
+        </div>
     </section>
 
-    <section class="case-studies">
-        <section class="project-1">
-            <h3>Project 1</h3>
-            <h3>UX/UI, Front-End Development</h3>
-        </section>
-        <section class="project-2">
-            <h3>Project 2</h3>
-            <h3>UI, Front-End Development, Branding</h3>
-        </section>
-        <section class="project-3">
-            <h3>Project 3</h3>
-            <h3>UX/UI, Branding, Front-End Development</h3>
-        </section>
+    <section class="case-studies container">
+        <div class="row">
+            <section class="project-1 col-sm-12">
+                <a href="#"><img src="images/lesgo.png">
+                    <h3>Lesgo</h3>
+                    <p>UX/UI, Front-End Development</p>
+                </a>
+            </section>
+            <section class="project-2 col-sm-12">
+                <a href="#"><img src="images/puggletea.png">
+                    <h3>Puggle TEa</h3>
+                    <p>UI, Front-End Development, Branding</p>
+                </a>
+            </section>
+            <section class="project-3 col-sm-12">
+                <a href="#"><img src="#">
+                    <h3>Project 3</h3>
+                    <p>UX/UI, Branding, Front-End Development</p>
+                </a>
+            </section>
+            <section class="personal-project col-sm-12">
+                <a href="#"><img src="#">
+                    <h3>Vector Illustrations</h3>
+                </a>
+            </section>
+        </div>
     </section>
 
-    <section class="about">
-        <h2>Nice to meet you!</h2>
-        <p>Insert Bio Here:</p>
-        <button>Resume</button>
+    <section class="about container">
+        <div class="row">
+            <h2 class="col-sm-12">Nice to meet you!</h2>
+            <img src="images/luwin.JPG" class="col-xs-6"alt="bio picture">
+            <p class="col-xs-6">Insert Bio Here:</p>
+            <button type="button" class="button col-sm-12 center-block">Resume</button>
+        </div>
     </section>
 
-    <section class="contact">
-          <h2>Let's get in touch</h2>
-          <button>Contact</button>
+    <section class="contact container">
+        <div class="row">
+            <h2 class="col-lg-12">Let's get in touch!</h2>
+            <button type="button" class="button col-sm-12 center-block">Contact</button>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2017 Luwin Changco | Designed &amp; Developed by Luwin Changco</p>
+    <footer class="container">
+        <div class="row">
+            <p class="col-sm-6">&copy; 2017 Luwin Changco | Designed &amp; Developed by Luwin Changco</p>
+            <div class="icons col-sm-6">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-envelope-o"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
+
+</html>
