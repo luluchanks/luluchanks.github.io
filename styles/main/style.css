@@ -15,7 +15,7 @@ h2 {
   margin-top: 10px;
   margin-bottom: 10px; }
 
-p {
+p, ul, ol {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 21px;
@@ -24,10 +24,9 @@ p {
 
 a {
   color: #002b28; }
-
-a:hover {
-  color: #00cdac;
-  text-decoration: none; }
+  a:hover {
+    color: #00cdac;
+    text-decoration: none; }
 
 nav {
   padding-top: 20px; }
@@ -53,15 +52,14 @@ section.hero {
 .sentence {
   color: #002b28;
   font-size: 48px;
-  text-align: center; }
+  text-align: left; }
 
 /*Wrapper*/
 .wrapper {
   background-color: #ffffff;
   font-family: 'Playfair Display', serif;
-  margin: 100px auto;
-  position: relative;
-  width: 70%; }
+  margin: 100px 22%;
+  position: relative; }
 
 .slidingVertical {
   display: inline;
@@ -156,7 +154,7 @@ section.hero {
 section.case-studies {
   margin: 0; }
   section.case-studies section.project-1, section.case-studies section.project-2, section.case-studies section.project-3, section.case-studies section.personal-project {
-    height: 250px;
+    width: 100%;
     border-bottom: 2px solid black;
     padding: 0; }
     section.case-studies section.project-1 h3, section.case-studies section.project-2 h3, section.case-studies section.project-3 h3, section.case-studies section.personal-project h3, section.case-studies section.project-1 p, section.case-studies section.project-2 p, section.case-studies section.project-3 p, section.case-studies section.personal-project p {
@@ -165,6 +163,13 @@ section.case-studies {
       margin: auto; }
     section.case-studies section.project-1 img, section.case-studies section.project-2 img, section.case-studies section.project-3 img, section.case-studies section.personal-project img {
       width: 106%; }
+    section.case-studies section.project-1 .description, section.case-studies section.project-2 .description, section.case-studies section.project-3 .description, section.case-studies section.personal-project .description {
+      opacity: 0;
+      background: rgba(250, 250, 250, 0.7);
+      transition: all 0.25s ease-in-out;
+      width: 106%;
+      position: relative;
+      top: -315px; }
 
 .button {
   background-color: #00cdac;
