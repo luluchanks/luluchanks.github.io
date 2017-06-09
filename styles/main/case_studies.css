@@ -1,0 +1,43 @@
+p, ul, ol {
+  line-height: 30px; }
+
+p {
+  margin: 10px 0 10px; }
+
+ul {
+  padding: 2% 8%;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+a {
+  text-decoration: underline; }
+
+.hero {
+  width: 100%; }
+
+.center-block {
+  float: none; }
+
+.divider {
+  border-bottom: 1px solid #ccc;
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.right-content {
+  border-right: 1px solid #ccc;
+  padding-right: 4%; }
+
+.light_bg {
+  background-color: #efefef; }
+
+.personas {
+  width: 100%; }
+
+.uf_title {
+  margin-left: 10%; }
+
+@media (max-width: 768px) {
+  .full-width {
+    width: 100%; } }
+
+/*# sourceMappingURL=case_studies.css.map */
