@@ -29,7 +29,14 @@ a {
     text-decoration: none; }
 
 nav {
-  padding-top: 20px; }
+  padding-top: 5px;
+  position: fixed;
+  top: 0;
+  background-color: rgba(250, 250, 250, 0.3);
+  z-index: 100;
+  height: 80px; }
+  nav.container {
+    width: 100%; }
   nav img {
     width: 12%; }
   nav ul {
@@ -42,7 +49,8 @@ nav {
     padding: 0 10px; }
 
 section.hero {
-  margin: 9% auto 20%; }
+  margin: 9% auto 20%;
+  width: 100%; }
   section.hero h1 {
     font-size: 88px;
     text-align: center;
@@ -52,13 +60,14 @@ section.hero {
 .sentence {
   color: #002b28;
   font-size: 48px;
-  text-align: left; }
+  text-align: left;
+  width: 50%; }
 
 /*Wrapper*/
 .wrapper {
   background-color: #ffffff;
   font-family: 'Playfair Display', serif;
-  margin: 100px 22%;
+  margin: auto 26%;
   position: relative; }
 
 .slidingVertical {
@@ -155,7 +164,6 @@ section.case-studies {
   margin: 0; }
   section.case-studies section.project-1, section.case-studies section.project-2, section.case-studies section.project-3, section.case-studies section.personal-project {
     width: 100%;
-    border-bottom: 2px solid black;
     padding: 0; }
     section.case-studies section.project-1 h3, section.case-studies section.project-2 h3, section.case-studies section.project-3 h3, section.case-studies section.personal-project h3, section.case-studies section.project-1 p, section.case-studies section.project-2 p, section.case-studies section.project-3 p, section.case-studies section.personal-project p {
       text-align: center; }
@@ -207,5 +215,28 @@ footer.container {
     padding-top: 2%; }
   footer.container .icons a:hover {
     color: #ffffff; }
+
+#myBtn {
+  font-size: 18px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 43, 40, 0.9);
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px; }
+
+#myBtn:hover {
+  background-color: #00cdac; }
+
+@media (max-width: 768px) {
+  .bio {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

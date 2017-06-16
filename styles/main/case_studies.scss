@@ -19,7 +19,7 @@ a {
   text-decoration: underline;
 }
 
-.hero {
+.hero, .screens {
   width: 100%;
 }
 
@@ -51,6 +51,23 @@ a {
 
 .uf_title {
   margin-left: 10%;
+}
+
+.next {
+  background-color: $lightcolor;
+  height: 70px;
+}
+
+.next-btns {
+  text-align: center;
+  text-decoration: none;
+  color: $darkcolor;
+  // margin-bottom: 5%;
+
+  &:hover {
+    color: white;
+  }
+
 }
 
 @media (max-width: 768px) {

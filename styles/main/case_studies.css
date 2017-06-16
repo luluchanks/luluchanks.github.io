@@ -12,7 +12,7 @@ ul {
 a {
   text-decoration: underline; }
 
-.hero {
+.hero, .screens {
   width: 100%; }
 
 .center-block {
@@ -35,6 +35,17 @@ a {
 
 .uf_title {
   margin-left: 10%; }
+
+.next {
+  background-color: #00cdac;
+  height: 70px; }
+
+.next-btns {
+  text-align: center;
+  text-decoration: none;
+  color: #002b28; }
+  .next-btns:hover {
+    color: white; }
 
 @media (max-width: 768px) {
   .full-width {
