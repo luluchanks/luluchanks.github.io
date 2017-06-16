@@ -160,24 +160,12 @@ section.hero {
     opacity: 0; }
   100% {
     opacity: 0; } }
-section.case-studies {
-  margin: 0; }
-  section.case-studies section.project-1, section.case-studies section.project-2, section.case-studies section.project-3, section.case-studies section.personal-project {
-    width: 100%;
-    padding: 0; }
-    section.case-studies section.project-1 h3, section.case-studies section.project-2 h3, section.case-studies section.project-3 h3, section.case-studies section.personal-project h3, section.case-studies section.project-1 p, section.case-studies section.project-2 p, section.case-studies section.project-3 p, section.case-studies section.personal-project p {
-      text-align: center; }
-    section.case-studies section.project-1 a, section.case-studies section.project-2 a, section.case-studies section.project-3 a, section.case-studies section.personal-project a {
-      margin: auto; }
-    section.case-studies section.project-1 img, section.case-studies section.project-2 img, section.case-studies section.project-3 img, section.case-studies section.personal-project img {
-      width: 106%; }
-    section.case-studies section.project-1 .description, section.case-studies section.project-2 .description, section.case-studies section.project-3 .description, section.case-studies section.personal-project .description {
-      opacity: 0;
-      background: rgba(250, 250, 250, 0.7);
-      transition: all 0.25s ease-in-out;
-      width: 106%;
-      position: relative;
-      top: -315px; }
+section.case-studies .container {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%; }
 
 .button {
   background-color: #00cdac;
@@ -237,6 +225,9 @@ footer.container {
 
 @media (max-width: 768px) {
   .bio {
+    width: 100%; }
+
+  .full-width {
     width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

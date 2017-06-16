@@ -153,44 +153,44 @@ section.hero {
   	100% { opacity: 0; }
 }
 
-
 section.case-studies {
-    margin: 0;
-
-    section.project-1 {
-        width: 100%;
-        padding: 0;
-
-        h3, p {
-            text-align: center;
-        }
-        a {
-            margin: auto;
-        }
-        img {
-            width: 106%;
-        }
-
-        .description {
-            opacity: 0;
-            background: rgba(250, 250, 250, 0.7);
-            transition: all 0.25s ease-in-out;
-            width: 106%;
-            position: relative;
-            top: -315px;
-        }
-    }
-
-    section.project-2 {
-        @extend section.project-1
-    }
-    section.project-3 {
-        @extend section.project-1
-    }
-    section.personal-project {
-        @extend section.project-1
-    }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
 }
+
+// section.case-studies {
+//     margin: 0;
+//
+//     div.project-1 {
+//         width: 100%;
+//         padding: 0;
+//
+//         h3, p {
+//             text-align: center;
+//         }
+//         a {
+//             margin: auto;
+//         }
+//
+//         .description {
+//             opacity: 0;
+//             background: rgba(250, 250, 250, 0.7);
+//             transition: all 0.25s ease-in-out;
+//             width: 106%;
+//             position: relative;
+//             top: -315px;
+//         }
+//     }
+//
+//     div.project-2 {
+//         @extend div.project-1
+//     }
+// }
 
 .button {
     background-color: $lightcolor;
@@ -259,6 +259,9 @@ footer.container {
 
 @media (max-width: 768px) {
   .bio {
+    width: 100%;
+  }
+  .full-width {
     width: 100%;
   }
 }
