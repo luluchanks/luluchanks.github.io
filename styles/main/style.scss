@@ -30,6 +30,16 @@ p, ul, ol {
     color: $darkcolor;
 }
 
+#abt ol {
+    list-style: none;
+
+    span {
+      font-size: 18px;
+      font-weight: 700;
+    }
+}
+
+
 a {
     color: $darkcolor;
 
@@ -205,6 +215,7 @@ section.case-studies {
     display: inline-block;
     padding-top: 5px;
     color: #ffffff;
+    margin: auto 41%;
 }
 
 .button:hover {
@@ -212,8 +223,20 @@ section.case-studies {
     color: #ffffff;
 }
 
+.resume {
+  margin: 0;
+}
+
+section.about h2 {
+    margin: 3% auto 2%;
+}
+
 section.contact {
-    margin: 10% 0 15%;
+    margin: 5% 0 7%;
+
+    h2 {
+      margin: 0 auto 2%;
+    }
 }
 
 footer.container {
@@ -223,14 +246,18 @@ footer.container {
     margin: 0;
 
     p {
-        font-size: 14px;
-        padding: 2% 2% 0;
+      font-size: 14px;
+      padding: 2% 2% 0;
     }
     .icons a {
-        float: right;
-        width: 8%;
-        font-size: 34px;
-        padding-top: 2%;
+      float: right;
+      font-size: 34px;
+      padding-top: 1%;
+      margin: 0% 1%;
+
+    }
+    .first-icon {
+      padding-right: 2%;
     }
     .icons a:hover {
         color: #ffffff;
@@ -241,7 +268,7 @@ footer.container {
     font-size: 18px;
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 80px;
     right: 30px;
     z-index: 99;
     border: none;
@@ -263,5 +290,8 @@ footer.container {
   }
   .full-width {
     width: 100%;
+  }
+  .button {
+    margin: auto 26%;
   }
 }
