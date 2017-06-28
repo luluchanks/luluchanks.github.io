@@ -55,7 +55,7 @@ nav {
     padding: 0 10px; }
 
 section.hero {
-  margin: 9% auto 20%;
+  margin: 13% auto 21%;
   width: 100%; }
   section.hero h1 {
     font-size: 88px;
@@ -66,15 +66,15 @@ section.hero {
 .sentence {
   color: #002b28;
   font-size: 48px;
-  text-align: left;
-  width: 50%; }
+  text-align: left; }
 
 /*Wrapper*/
 .wrapper {
   background-color: #ffffff;
   font-family: 'Playfair Display', serif;
   margin: auto 26%;
-  position: relative; }
+  position: relative;
+  width: 63%; }
 
 .slidingVertical {
   display: inline;
@@ -249,5 +249,27 @@ footer.container {
 
   .button {
     margin: auto 26%; } }
+@media (max-width: 500px) {
+  section.hero h1 {
+    font-size: 48px; }
+
+  section.wrapper.col-sm-12 {
+    margin-left: 0;
+    margin-right: 0; }
+
+  h2.sentence.col-sm-12 {
+    width: 100;
+    padding: left;
+    margin: 0;
+    text-align: center; }
+
+  .sentence {
+    color: #002b28;
+    font-size: 31px;
+    width: 100%; }
+
+  .slidingVertical {
+    display: inherit;
+    text-indent: -60px; } }
 
 /*# sourceMappingURL=style.css.map */
