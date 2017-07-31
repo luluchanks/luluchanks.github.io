@@ -50,24 +50,23 @@ a {
 }
 
 nav {
-    padding-top: 5px;
     position: fixed;
     top: 0;
-    background-color: rgba(250, 250, 250, 0.3);
+    background-color: rgba(250, 250, 250, 0.7);
     z-index: 100;
-    height: 80px;
+    height: 85px;
+    width: 100%;
 
     &.container {
       width: 100%;
     }
     img {
-      width: 12%;
+      width: 61px;
     }
     ul {
        list-style: none;
-       text-transform: uppercase;
-       text-align: right;
-       padding-top: 4%;
+       text-align: center;
+       padding-top: 2%;
     }
     li {
         display: inline;
@@ -294,11 +293,17 @@ footer.container {
   .button {
     margin: auto 26%;
   }
+  section.hero h1 {
+    font-size: 60px;
+  }
+  .wrapper {
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
   section.hero h1 {
-    font-size: 48px;
+    font-size: 42px;
   }
   section.wrapper.col-sm-12 {
     margin-left: 0;
