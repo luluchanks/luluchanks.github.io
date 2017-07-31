@@ -20,28 +20,24 @@
 
 <body>
   <nav>
-    <!-- <div class="row">
-      <div class="menu-bar col-sm-6"> -->
-        <ul>
-          <li>
-            <a href="#hero">
-              <img src="images/logo2.png" class="logo" alt="LC logo">
-            </a>
-          </li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#abt">About</a></li>
-          <li><a href="#meet">Contact</a></li>
-        </ul>
-      <!-- </div>
-    </div> -->
+    <ul>
+      <li>
+        <a href="index.html">
+          <img src="images/logo2.png" class="logo" alt="LC logo">
+        </a>
+      </li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#abt">About</a></li>
+      <li><a href="#meet">Contact</a></li>
+    </ul>
   </nav>
 
-    <section class="hero" id="hero">
-      <div class="container">
-        <div class="row">
-            <h1 class="col-sm-12">Hi, my name is Luwin!</h1>
-            <section class="wrapper col-sm-12">
-                <h2 class="sentence col-sm-12">&amp; I'm a UX/UI designer<br>that loves
+    <section class="hero">
+      <!-- <div class="container">
+        <div class="row"> -->
+            <h1>Hi, my name is Luwin!</h1>
+            <section class="wrapper">
+                <h2 class="sentence">&amp; I'm a UX/UI designer that loves
                     <div class="slidingVertical">
                         <span>simplicity.</span>
                         <span>typography.</span>
@@ -51,8 +47,8 @@
                     </div>
                 </h2>
             </section>
-        </div>
-      </div>
+        <!-- </div>
+      </div> -->
     </section>
 
     <section class="case-studies" id="work">
@@ -68,19 +64,17 @@
       <div class="container">
         <div id="abt">
           <div class="row">
-              <h2 class="col-sm-12">Nice to meet you!</h2>
-              <img src="images/luwin.JPG" class="col-sm-6 bio" alt="bio picture">
-              <ol class="col-sm-5">
-                  <li><span>1. </span>Drawing with a crayon since birth.</li>
-                  <li><span>2. </span>Dabbling with basic HTML/CSS as a tween on Myspace and Xanga.</li>
-                  <li><span>3. </span>Learning graphic design and fine art in high school.</li>
-                  <li><span>4. </span>Exploring design for three semesters of architecture school.</li>
-                  <li><span>5. </span>Teaching intro to Adobe Photoshop and Illustrator to Rutgers Office of Information Technology lab consultants.</li>
-                  <li><span>6. </span>Developing my skills in UX/UI design and front end development through Bloc Inc’s Design Apprenticeship.</li>
-              </ol>
-              <p class="col-sm-6">I’ve always had a love for art and later on design, but my path towards design was not a straightforward one.  Growing up with a family of health professionals made me think that design was a hobby, not a career.  So to follow in the footsteps of my successful relatives, I worked towards becoming a physician.  My high school schedule consisted of science courses, except for two courses in art and graphic design.  I applied to universities with great biology programs; however, my art teacher pulled me aside and asked if medicine was something I truly wanted to do.  I began to question my aspiration and applied to one architecture school thinking it was a good balance between design and science.  Those three semesters in architecture school were great, but I knew it wasn’t for me.  I ended up transferring schools and switched back to the pre-medical route.  I took intensive science courses and graduated from Rutgers University with a degree in biological sciences.  While studying for the Medical College Admissions Test, I realized I was pursuing my family’s dreams, not my own.  I felt hopeless and a failure.  I did some soul searching and questioned what things truly make me happy.  Soon enough, I realized that design and creativity were recurring themes in everything I did, as noted in those 6 items above.  A couple months after graduating, I discovered Bloc Inc’s design apprenticeship and knew immediately user experience and user interface design was the track for me.  Words can’t describe the feeling of finally doing something I truly love -- exercising my creativity by solving problems through design.
-              <br><br>
-              Other than designing, you could catch me eating, cooking, working out, drawing, and binge watching anime! I’m always learning &amp; always creating~</p>
+            <img src="images/luwin.JPG" class="col-sm-7 col-sm-offset-2 bio" alt="bio picture">
+            <h2 class="col-sm-5">Nice to meet you!</h2>
+            <p class="col-sm-7">
+              Food and fitness enthusiast, anime lover, and a
+              biologist-turned-UX/UI designer with an endless curiosity
+              and commitment to learning.  I have a passion for creating
+              intuitive products that are rooted in research, iteration,
+              and problem solving. I’ve always had a love for art and later
+              on design, but my path towards design was not a straightforward one.
+            </p>
+            <a href="#" class="button col-sm-1 about-btn">READ MORE</a>
           </div>
         </div>
       </div>
@@ -91,6 +85,26 @@
         <div id="meet">
           <div class="row">
               <h2 class="col-lg-12">Let's get in touch!</h2>
+              <div class="row">
+                <form action="https://formspree.io/luwinchangco@gmail.com"
+                  method="POST"></form>
+              </div>
+
+              <div class="row">
+                <input type="text" name="name" placeholder="Name">
+              </div>
+
+              <div class="row">
+                <input type="email" name="_replyto" placeholder="E-mail">
+              </div>
+
+              <div class="row">
+                <textarea name="message" placeholder="message"></textarea>
+              </div>
+
+              <div class="row">
+                <input type="submit" value="Send">
+              </div>
               <a href="mailto:luwinchangco@gmail.com" class="button center-block col-sm-3">CONTACT</a>
               <a href="https://www.dropbox.com/s/xibrkhjvvad38w6/Luwin_Changco.pdf?dl=0" class="button center-block col-sm-3" target="_blank">RESUME</a>
           </div>
@@ -100,7 +114,7 @@
 
     <footer class="container">
         <div class="row">
-            <p class="col-xs-6">&copy; 2017, Luwin Changco.</p>
+            <p class="col-xs-6">Designed &amp; Developed by Luwin Changco</p>
             <div class="icons col-xm-6">
                 <a href="https://dribbble.com/luluchanks" target="_blank" class="first-icon"><i class="fa fa-dribbble"></i></a>
                 <a href="https://www.linkedin.com/in/luwin-changco/" target="_blank"><i class="fa fa-linkedin"></i></a>

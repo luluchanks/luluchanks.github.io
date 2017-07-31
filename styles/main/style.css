@@ -39,7 +39,7 @@ nav {
   top: 0;
   background-color: rgba(250, 250, 250, 0.7);
   z-index: 100;
-  height: 85px;
+  height: 75px;
   width: 100%; }
   nav.container {
     width: 100%; }
@@ -48,13 +48,15 @@ nav {
   nav ul {
     list-style: none;
     text-align: center;
-    padding-top: 2%; }
+    padding-top: 1%; }
   nav li {
     display: inline;
-    padding: 0 10px; }
+    padding: 0 25px; }
+  nav a {
+    text-decoration: none; }
 
 section.hero {
-  margin: 13% auto 21%;
+  margin: 19% auto 23%;
   width: 100%; }
   section.hero h1 {
     font-size: 88px;
@@ -64,16 +66,16 @@ section.hero {
 /*Sentence*/
 .sentence {
   color: #002b28;
-  font-size: 48px;
-  text-align: left; }
+  font-size: 40px;
+  text-align: center; }
 
 /*Wrapper*/
 .wrapper {
   background-color: #ffffff;
   font-family: 'Playfair Display', serif;
-  margin: auto 26%;
+  margin: auto 0%;
   position: relative;
-  width: 63%; }
+  width: 84%; }
 
 .slidingVertical {
   display: inline;
@@ -176,16 +178,16 @@ section.case-studies .container {
   background-color: #00cdac;
   width: 200px;
   height: 40px;
-  font-size: 1rem;
+  font-size: 20px;
+  font-weight: 600;
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   border: none;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  padding-top: 9px;
-  color: #ffffff;
-  margin: auto 41%; }
+  padding-top: 6px;
+  color: #ffffff; }
 
 .button:hover {
   background-color: #002b28;
@@ -194,8 +196,20 @@ section.case-studies .container {
 .resume {
   margin: 0; }
 
-section.about h2 {
-  margin: 3% auto 2%; }
+section.about {
+  margin-top: 30px; }
+  section.about h2 {
+    margin: 1% 0 2% 2%;
+    text-align: left; }
+  section.about p {
+    line-height: 25px;
+    width: 40%;
+    margin-left: 2%; }
+  section.about .bio {
+    width: 25%; }
+
+.about-btn {
+  margin-left: 3%; }
 
 section.contact {
   margin: 5% 0 7%; }
@@ -246,14 +260,17 @@ footer.container {
   .full-width {
     width: 100%; }
 
-  .button {
-    margin: auto 26%; }
-
   section.hero h1 {
     font-size: 60px; }
 
+  .sentence {
+    font-size: 30px; }
+
   .wrapper {
-    width: 100%; } }
+    width: 84%; }
+
+  .bio {
+    display: none; } }
 @media (max-width: 500px) {
   section.hero h1 {
     font-size: 42px; }
@@ -268,10 +285,15 @@ footer.container {
     margin: 0;
     text-align: center; }
 
+  nav li {
+    padding: 0 12px; }
+
   .sentence {
     color: #002b28;
-    font-size: 31px;
-    width: 100%; }
+    font-size: 25px;
+    width: 86%;
+    margin-left: 16%;
+    text-align: center; }
 
   .slidingVertical {
     display: inherit;

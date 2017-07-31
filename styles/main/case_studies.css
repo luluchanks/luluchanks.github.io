@@ -37,18 +37,21 @@ a {
   margin-left: 10%; }
 
 .next {
-  background-color: #00cdac;
-  height: 70px; }
+  height: 70px;
+  margin: 15px 0 15px 0; }
 
 .next-btns {
   text-align: center;
   text-decoration: none;
   color: #002b28; }
   .next-btns:hover {
-    color: white; }
+    color: #00cdac; }
 
 @media (max-width: 768px) {
   .full-width {
     width: 100%; } }
+@media (max-width: 500px) {
+  nav li {
+    padding: 0 12px; } }
 
 /*# sourceMappingURL=case_studies.css.map */
