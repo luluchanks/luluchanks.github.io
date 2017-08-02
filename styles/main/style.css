@@ -28,6 +28,40 @@ p, ul, ol {
     font-size: 18px;
     font-weight: 700; }
 
+input, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  height: 38px;
+  border: 1px solid #002b28;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 6px 10px;
+  width: 20%;
+  margin: 5px;
+  display: block;
+  color: inherit; }
+
+textarea {
+  height: 70px; }
+
+input[type="submit"] {
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  background: #00cdac;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #ffffff; }
+
+input#send:hover {
+  background-color: #002b28; }
+
 a {
   color: #002b28; }
   a:hover {
@@ -187,11 +221,15 @@ section.case-studies .container {
   text-decoration: none;
   display: inline-block;
   padding-top: 6px;
-  color: #ffffff; }
+  color: #ffffff;
+  border-radius: 4px; }
 
 .button:hover {
   background-color: #002b28;
   color: #ffffff; }
+
+.button:visited {
+  text-decoration: none; }
 
 .resume {
   margin: 0; }
@@ -209,7 +247,8 @@ section.about {
     width: 25%; }
 
 .about-btn {
-  margin-left: 3%; }
+  margin-left: 3%;
+  margin-top: 2%; }
 
 section.contact {
   margin: 5% 0 7%; }
@@ -262,6 +301,9 @@ footer.container {
 
   section.hero h1 {
     font-size: 60px; }
+
+  section.about p {
+    width: 93%; }
 
   .sentence {
     font-size: 30px; }
