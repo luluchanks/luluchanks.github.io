@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" contents="IE-Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Luwin Changco | Portfolio</title>
+    <title>Luwin Changco</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
     <!-- Google Fonts -->
@@ -22,7 +22,7 @@
   <nav>
     <ul>
       <li>
-        <a href="index.html">
+        <a href="index.html" id="logo-hover">
           <img src="images/logo2.png" class="logo" alt="LC logo">
         </a>
       </li>
@@ -63,10 +63,12 @@
     <section class="about">
       <div class="container">
         <div id="abt">
-          <div class="row">
-            <img src="images/luwin.JPG" class="col-sm-7 col-sm-offset-2 bio" alt="bio picture">
-            <h2 class="col-sm-5">A litte about me:</h2>
-            <p class="col-sm-7">
+          <div class="col-sm-5 col-sm-offset-1">
+            <img src="images/luwin.JPG" class="col-sm-offset-2 bio" alt="bio picture">
+          </div>
+          <div class="col-sm-5 abt">
+            <h2>A little about me</h2>
+            <p>
               Food and fitness enthusiast, anime lover, and a
               biologist-turned-UX/UI designer with an endless curiosity
               and commitment to learning.  I have a passion for creating
@@ -85,16 +87,16 @@
         <div id="meet">
           <div class="row">
               <h2 class="col-lg-12">Let's get in touch!</h2>
-              <p class="col-sm-5 col-sm-offset-2">
-                Feel free to contact me! Let me know if you want to work together,
-                have advice, or simply want to chat! I’ll try my best to get back
-                to you as soon as possible.
-
+              <div class="col-sm-5 col-sm-offset-1 left-contact">
+                <p class="contact-description">
+                  Feel free to contact me! Let me know if you want to work together,
+                  have advice, or simply want to chat! I’ll try my best to get back
+                  to you as soon as possible.
+                </p>
                 <br />
-                <br />
-                luwinchangco@gmail.com
-              </p>
-              <div class="row">
+                  <a href="https://www.dropbox.com/s/xibrkhjvvad38w6/Luwin_Changco.pdf?dl=0" class="button col-sm-3 resume-btn" target="_blank">RESUME</a>
+              </div>
+              <div class="col-sm-5 form">
                 <form action="https://formspree.io/luwinchangco@gmail.com"
                   method="POST">
                   <input type="text" name="name" placeholder="Name">
@@ -103,8 +105,6 @@
                   <input type="submit" value="Send" id="send">
                 </form>
               </div>
-              <a href="mailto:luwinchangco@gmail.com" class="button center-block col-sm-3">CONTACT</a>
-              <a href="https://www.dropbox.com/s/xibrkhjvvad38w6/Luwin_Changco.pdf?dl=0" class="button center-block col-sm-3" target="_blank">RESUME</a>
           </div>
         </div>
       </div>
@@ -113,12 +113,11 @@
     <footer class="container">
         <div class="row">
             <p class="col-xs-6">Designed &amp; Developed by Luwin Changco</p>
-            <div class="icons col-xm-6">
-                <a href="https://dribbble.com/luluchanks" target="_blank" class="first-icon"><i class="fa fa-dribbble"></i></a>
-                <a href="https://www.linkedin.com/in/luwin-changco/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <div class="icons col-xs-6">
                 <a href="https://angel.co/luwin-changco" target="_blank"><i class="fa fa-angellist"></i></a>
-                <a href="mailto:luwinchangco@gmail.com"><i class="fa fa-envelope-o"></i></a>
-
+                <a href="https://github.com/luluchanks"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/luwin-changco/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://dribbble.com/luluchanks" target="_blank" class="first-icon"><i class="fa fa-dribbble"></i></a>
             </div>
         </div>
     </footer>
