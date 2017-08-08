@@ -82,11 +82,64 @@ p.description {
 .footer-image {
   width: 100%; }
 
+@media (max-width: 1000px) {
+  .hero {
+    height: initial; }
+
+  .overlay {
+    display: none; }
+
+  img.lesgo-logo {
+    top: 20%;
+    width: 350px; }
+
+  p.description {
+    top: 40vh;
+    font-size: 24px; } }
 @media (max-width: 768px) {
   .full-width {
-    width: 100%; } }
-@media (max-width: 500px) {
+    width: 100%; }
+
+  img.lesgo-logo {
+    left: 33%;
+    top: 16%;
+    width: 300px; }
+
+  p.description {
+    top: 35vh;
+    font-size: 22px; } }
+@media (max-width: 525px) {
   nav li {
-    padding: 0 12px; } }
+    padding: 0 12px; }
+
+  img.lesgo-logo {
+    left: 30%;
+    top: 13%;
+    width: 225px; }
+
+  p.description {
+    top: 27vh;
+    font-size: 18px; } }
+@media (max-width: 410px) {
+  nav li {
+    padding: 0 12px; }
+
+  img.lesgo-logo {
+    left: 30%;
+    top: 13%;
+    width: 200px; }
+
+  p.description {
+    top: 25vh;
+    font-size: 16px; } }
+@media (max-width: 375px) {
+  img.lesgo-logo {
+    width: 150px;
+    left: 31%;
+    top: 6%; }
+
+  p.description {
+    top: 13vh;
+    font-size: 15px; } }
 
 /*# sourceMappingURL=case_studies.css.map */
