@@ -111,6 +111,10 @@ p.description {
   width: 100%;
 }
 
+footer.container p {
+    padding: 1% 2% 0;
+}
+
 @media (max-width: 1000px) {
   .hero {
     height: initial;
