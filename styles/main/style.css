@@ -17,8 +17,8 @@ h2 {
 
 p, ul, ol {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  line-height: 21px;
+  font-size: 18px;
+  line-height: 36px;
   font-weight: 400;
   color: #002b28; }
 
@@ -30,16 +30,16 @@ p, ul, ol {
 
 input, textarea {
   font-family: inherit;
-  font-size: inherit;
+  font-size: 16px;
   line-height: inherit;
   height: 38px;
   border: 1px solid #002b28;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
-  padding: 6px 10px;
-  width: 66%;
-  margin: 5px;
+  padding: 6px 15px;
+  width: 80%;
+  margin: 5px 0;
   display: block;
   color: inherit; }
 
@@ -83,10 +83,10 @@ nav {
     list-style: none;
     text-align: center;
     padding-top: 1%;
-    padding-left: 1%; }
+    padding-left: 0; }
   nav li {
     display: inline;
-    padding: 0 7%; }
+    padding: 0 4.5%; }
   nav a {
     font-size: 20px;
     position: relative;
@@ -116,7 +116,7 @@ section.hero {
   margin: 19% auto 23%;
   width: 100%; }
   section.hero h1 {
-    font-size: 88px;
+    font-size: 100px;
     text-align: center;
     font-weight: 900; }
 
@@ -130,13 +130,12 @@ section.hero {
 .wrapper {
   background-color: #ffffff;
   font-family: 'Playfair Display', serif;
-  margin: auto 0%;
+  margin: 0% auto;
   position: relative;
   width: 84%; }
 
 .slidingVertical {
-  display: inline;
-  text-indent: 8px; }
+  text-indent: -78px; }
 
 .slidingVertical span {
   animation: topToBottom 12.5s linear infinite 0s;
@@ -258,32 +257,31 @@ section.case-studies .container {
   margin: 0; }
 
 section.about {
-  margin-top: 30px; }
+  margin-top: 7%; }
   section.about h2 {
-    margin: 2% 0;
-    text-align: left; }
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px; }
   section.about p {
-    line-height: 25px;
-    padding-top: 3%; }
+    line-height: 36px;
+    padding-top: 2%; }
   section.about .bio {
-    width: 70%; }
+    width: 75%;
+    margin-left: 29%; }
   section.about .abt {
-    margin-left: -5%; }
-
-.about-btn {
-  margin-top: 3%; }
+    margin-left: 4%;
+    width: 44%; }
 
 section.contact {
-  margin: 5% 0 7%; }
+  margin: 7% 0; }
   section.contact h2 {
     margin: 0 auto 2%; }
   section.contact .contact-description {
-    line-height: 25px; }
+    line-height: 36px; }
   section.contact .left-contact {
-    margin-left: 15%; }
+    margin-left: 12%; }
 
 footer.container {
-  height: 65px;
   background-color: #00cdac;
   width: 100%;
   margin: 0; }
@@ -319,7 +317,17 @@ footer.container {
 #myBtn:hover {
   background-color: #00cdac; }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
+  section.about .bio {
+    width: 85%;
+    margin-left: 26%; }
+
+  section.about .abt {
+    width: 54%; } }
+@media (max-width: 770px) {
+  nav li {
+    padding: 0 4%; }
+
   .bio {
     width: 100%; }
 
@@ -330,8 +338,8 @@ footer.container {
     font-size: 60px; }
 
   section.about p {
-    width: 93%;
-    padding-left: 10%; }
+    width: 94%;
+    padding-left: 6%; }
 
   .sentence {
     font-size: 30px; }
@@ -342,33 +350,47 @@ footer.container {
   .bio {
     display: none; }
 
+  section.about .abt {
+    margin-left: 0%;
+    width: 100%; }
   section.about h2 {
     margin: 1% 0 2% 6%;
     text-align: center; }
 
   .about-btn {
-    margin-left: 38%; }
+    margin-left: 35%; }
 
   .resume-btn {
-    margin-left: 24%; }
+    margin-left: 28%; }
+
+  .left-contact {
+    margin-left: 12%;
+    width: 85%; }
 
   .contact-description {
-    width: 93%;
+    width: 100%;
     margin-left: -5%;
     padding-top: 3%; }
 
   .col-sm-5.form {
     padding-top: 6%;
-    margin-left: 24%;
+    margin-left: 21%;
     width: 70%; }
 
   input[type="submit"] {
-    margin-left: 14%;
-    margin-top: 2%; }
+    margin-left: 21%;
+    margin-top: 3%; }
 
   .abt {
     margin-left: 0; } }
 @media (max-width: 575px) {
+  p {
+    font-size: 16px;
+    line-height: 32px; }
+
+  h2 {
+    font-size: 36px; }
+
   section.hero h1 {
     font-size: 42px; }
 
@@ -395,22 +417,22 @@ footer.container {
     color: #002b28;
     font-size: 25px;
     width: 86%;
-    margin-left: 16%;
+    margin-left: 7%;
     text-align: center; }
 
   .slidingVertical {
     display: inherit;
-    text-indent: -60px; }
+    text-indent: -46px; }
 
   .about-btn {
-    margin-left: 34%; }
+    margin-left: 31%; }
 
   .resume-btn {
-    margin-left: 19%; }
+    margin-left: 23%; }
 
   .col-sm-5.form {
-    margin-left: 17%;
-    width: 100%; }
+    margin-left: 15%;
+    width: 85%; }
 
   .contact-description {
     width: 100%;
@@ -418,46 +440,68 @@ footer.container {
 
   input[type="submit"] {
     margin-top: 2%;
-    margin-left: 14%; }
+    margin-left: 19%; }
 
   section.about p {
     width: 100%;
-    padding-left: 10%; } }
+    padding-left: 0%; } }
 @media (max-width: 425px) {
+  h2 {
+    font-size: 30px; }
+
+  section.about h2 {
+    margin: 1% 0 2% 0%;
+    text-align: center; }
+
   .contact-description {
     width: 100%;
     margin-left: -10%; }
 
+  .left-contact {
+    margin-left: 12%;
+    width: 95%; }
+
   .about-btn {
-    margin-left: 27%; }
+    margin-left: 23%; }
 
   .resume-btn {
-    margin-left: 11%; }
+    margin-left: 12%; }
 
   .col-sm-5.form {
     margin-left: 8%;
-    width: 120%; }
+    width: 100%; }
 
   input[type="submit"] {
-    margin-left: 13%; } }
+    margin-left: 16%; }
+
+  .project-img {
+    width: 120%;
+    margin-left: -36px; } }
 @media (max-width: 375px) {
+  .project-img {
+    width: 128%;
+    margin-left: -50px; }
+
   section.about p {
-    width: 104%;
-    padding-left: 2%; }
+    line-height: 30px;
+    width: 100%;
+    padding-left: 0%; }
 
   .contact-description {
-    width: 116%;
-    margin-left: -18%; }
+    width: 100%; }
+
+  section.contact .contact-description {
+    line-height: 30px; }
 
   .about-btn {
-    margin-left: 22%; }
+    margin-left: 18%; }
 
   .resume-btn {
-    margin-left: 5%; }
+    margin-left: 8%; }
 
   .col-sm-5.form {
-    margin-left: 6%;
-    width: 123%; }
+    margin-left: 9%;
+    width: 100%; }
 
   input[type="submit"] {
     margin-left: 11%; } }

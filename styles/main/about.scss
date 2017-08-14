@@ -9,14 +9,14 @@ img.me {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 65%;
+    width: 50%;
 }
 
 p.body-text {
-    width: 65%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    line-height: 30px;
+    line-height: 36px;
     padding: 2% 0 5%;
 }
 
@@ -32,6 +32,9 @@ footer.container p {
   p.body-text {
     width: 80%;
   }
+  img.me {
+    width: 60%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -40,13 +43,18 @@ footer.container p {
     padding-top: 12%;
   }
   p.body-text {
-    width: 90%;
+    width: 84%;
+    line-height: 30px;
+  }
+  img.me {
+    width: 84%;
   }
 }
 
 @media (max-width: 425px) {
   h1.intro {
     font-size: 2rem;
+    padding-top: 18%;
   }
   p.body-text {
     line-height: 27px;
