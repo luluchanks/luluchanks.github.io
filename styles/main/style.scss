@@ -306,7 +306,12 @@ section.case-studies {
     padding-right: 0;
     width: 100%;
   }
+  .project-img {
+    padding-top: 1%;
+  }
 }
+
+
 
 // section.case-studies {
 //     margin: 0;
@@ -545,14 +550,17 @@ footer.container {
     margin: 0;
     text-align: center;
   }
-  nav ul {
-    padding-left: 10px;
+  nav {
+    height: 55px;
   }
   nav li {
-    padding: 0 4%;
+    padding: 0 12px;
   }
   nav a {
-    font-size: 18px;
+    font-size: 16px;
+  }
+  nav img {
+    width: 41px;
   }
   .sentence {
     color: #002b28;
@@ -622,9 +630,18 @@ footer.container {
     width: 120%;
     margin-left: -36px;
   }
+  nav li {
+    padding: 0 8px;
+  }
 }
 
 @media (max-width: 375px) {
+  nav li {
+    padding: 0 4px;
+  }
+  nav a {
+    font-size: 14px;
+  }
   .project-img {
     width: 128%;
     margin-left: -50px;
