@@ -4,7 +4,7 @@ p, ul, ol {
 p {
   margin: 10px 0 10px; }
 
-ul {
+.ligh-bg {
   padding: 2% 8%;
   margin-top: 0;
   margin-bottom: 0; }
@@ -69,6 +69,10 @@ p.description {
 
 .light_bg {
   background-color: #efefef; }
+
+.light_bg ul {
+  padding: 2% 8%;
+}
 
 .personas {
   width: 100%; }
