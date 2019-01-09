@@ -90,6 +90,26 @@ p.description {
 .footer-image {
   width: 100%; }
 
+.figma-link {
+  text-align: center;
+}
+
+.yt-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    width: 100%;
+    height: 0;
+}
+
+.yt-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 footer.container p {
   padding: 1% 2% 0; }
 
